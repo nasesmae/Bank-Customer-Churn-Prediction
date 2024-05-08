@@ -77,6 +77,18 @@ This highlights the features that have the most significant impact on the model'
 
 ![image](assets/feature_importance.png)
 
+Here are the features ranked by their importance in predicting churn, as determined by the Random Forest model:
+- Total_Trans_ct (21.55%): Total Transaction Count
+- Total_Trans_Amt (21.2%): Total Transaction Amount
+- Total_Revolving_Bal (9.51%): Total Revolving Balance on the Credit Card
+- Total_Ct_Chng_Q4_Q1 (8.08%): Change in Transaction Count from Q4 to Q1
+- Avg_Utilization_Ratio (6.79%): Average Card Utilization Ratio
+- Total_Relationship_Count (6.14%): Number of Products held by the customer
+- Total_Amt_Chng_Q4_Q1 (5.36%): Change in Transaction Amount from Q4 to Q1
+- Avg_Open_To_Buy (2.69%): Available Credit Line
+- Credit_Limit (2.66%)
+
+These features contribute significantly to the model's ability to predict whether a customer will churn or not. The most impactful features are related to transaction behavior and credit utilization, which are critical indicators of customer engagement and satisfaction.
 
 ## ⏰ Timeline
 
