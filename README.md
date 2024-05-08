@@ -6,11 +6,9 @@ This repository contains a series of Jupyter notebooks and Python scripts used t
 
 The data utilized in this project is sourced from Kaggle's [Credit Card Customers](https://www.kaggle.com/sakshigoyal7/credit-card-customers).
 
-
 ## 📂 Repo Structure
 
 ```
-.
 ├── data
 │ ├── BankChurners.csv
 │ ├── BankChurners_preprocessed.csv
@@ -35,8 +33,9 @@ To run the notebooks, you will need Jupyter Notebook or JupyterLab installed. Yo
 
 ```bash
 jupyter notebook
-
+```
 For implementation with custom data, clone the repository and follow the instructions detailed in the `requirements.txt` file.
+
 
 ## 📝 Data Description
 
