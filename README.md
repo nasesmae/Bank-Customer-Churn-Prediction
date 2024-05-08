@@ -28,12 +28,15 @@ The data utilized in this project is sourced from Kaggle's [Credit Card Customer
 
 
 ## 🔧 Installation
+Install the required libraries:
 
-To run the notebooks, you will need Jupyter Notebook or JupyterLab installed. You can start the application with the following command:
+   - [![python version](https://img.shields.io/badge/python-3.x-blue)](https://python.org)
+   - [![Pandas Version](https://img.shields.io/badge/pandas-2.x-green)](https://pandas.pydata.org/)
+   - [![NumPy Version](https://img.shields.io/badge/numpy-1.x-orange)](https://numpy.org/)
+   - [![Matplotlib Version](https://img.shields.io/badge/Matplotlib-3.x-red)](https://matplotlib.org/)
+   - [![Seaborn Version](https://img.shields.io/badge/seaborn-0.x-yellow)](https://seaborn.pydata.org/)
+   - [![sklearn Version](https://img.shields.io/badge/sklearn-0.x-grey)](https://scikit-learn.org/stable/)
 
-```bash
-jupyter notebook
-```
 For implementation with custom data, clone the repository and follow the instructions detailed in the `requirements.txt` file.
 
 
@@ -72,7 +75,7 @@ These metrics were calculated using a hold-out validation method where the datas
 ## Feature importance
 This highlights the features that have the most significant impact on the model's performance.
 
-![image](assets/feature importance.png)
+![image](assets/feature_importance.png)
 
 
 ## ⏰ Timeline
