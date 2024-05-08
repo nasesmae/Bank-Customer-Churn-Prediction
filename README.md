@@ -41,6 +41,7 @@ For implementation with custom data, clone the repository and follow the instruc
 
 The datasets contain various features related to customer behavior and demographic information, which are used to predict the likelihood of a customer leaving the bank. The preprocessing.ipynb notebook details the steps to clean and prepare the data. 
 
+
 ### Preprocessing Data
 
 The dataset named `BankChurners.csv`, provided by the client from Kaggle, underwent significant preprocessing. Key steps included:
@@ -67,8 +68,7 @@ These metrics were calculated using a hold-out validation method where the datas
 
 ## Comparison models by ROC-curve
 
-![image](assets\Comparison models by ROC AUC.png)
-
+![Comparison Models by ROC AUC](assets/Comparison_models_by_ROC_AUC.png)
 
 ## Feature importance
 This highlights the features that have the most significant impact on the model's performance.
