@@ -14,15 +14,19 @@ def train_evaluate_model(model, X, y):
     """
     # Split data
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
     # Train model
     model.fit(X_train, y_train)
+
     # Predict probabilities and classes
     y_pred = model.predict(X_test)
     y_scores = model.predict_proba(X_test)[:, 1]  # Probabilities for the positive class
+
     # Evaluate model
     accuracy = accuracy_score(y_test, y_pred)
     conf_matrix = confusion_matrix(y_test, y_pred)
     classification_rep = classification_report(y_test, y_pred, output_dict=True)
+
     # Calculate ROC curve and AUC
     fpr, tpr, thresholds = roc_curve(y_test, y_scores)
     roc_auc = auc(fpr, tpr)
@@ -51,6 +55,7 @@ def main():
     df = pd.read_csv("data/BankChurners_preprocessed.csv")
     X = df.drop(['Attrition_Flag'], axis=1)
     y = df['Attrition_Flag']
+
     # Define models
     models = {
         'KNN': KNeighborsClassifier(n_neighbors=5),  
@@ -58,6 +63,7 @@ def main():
         'Logistic Regression': LogisticRegression(),
         'Random Forest': RandomForestClassifier(),
     }
+
     # Train and evaluate models
     model_results = {}
     for model_name, model in models.items():
@@ -72,6 +78,7 @@ def main():
             'FPR': results[4],
             'TPR': results[5]
         }
+        
     # Display results in a DataFrame
     results_df = pd.DataFrame(model_results).T
     print(results_df[['Accuracy', 'Precision', 'Recall', 'F1-Score', 'ROC AUC']])
