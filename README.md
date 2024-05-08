@@ -96,4 +96,7 @@ These features contribute significantly to the model's ability to predict whethe
 
 This project was completed within a timeframe of 5 working days.
 
+## Contributors
+This project was a solo project and completed by Nasrin Esmaeilian. 
+
 
