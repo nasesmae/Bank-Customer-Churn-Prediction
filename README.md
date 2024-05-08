@@ -72,7 +72,7 @@ These metrics were calculated using a hold-out validation method where the datas
 ## Feature importance
 This highlights the features that have the most significant impact on the model's performance.
 
-![image](assets/feature importance.png)
+![image](assets/feature_importance.png)
 
 
 ## ⏰ Timeline
