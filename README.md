@@ -67,7 +67,7 @@ The following table summarizes the performance of various models evaluated in th
 | Random Forest        | 0.979    | 0.979     | 0.979   | 0.979    | 0.998   |
 
 These metrics were calculated using a hold-out validation method where the dataset was split into training and test sets. The ROC AUC scores provide insight into the models' ability to distinguish between classes.
-I also used clustering using kmeans method, but as the model evaluations was weakm, I didn't write it down here. If you are interested you can take a look at the clustering notebook. 
+I also experimented with clustering using the K-means method, but the model evaluations were weak, so I didn't document them here. If you're interested, you can review the clustering notebook. 
 ``
 
 ## Comparison classification models by ROC-curve
