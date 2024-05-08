@@ -72,6 +72,8 @@ These metrics were calculated using a hold-out validation method where the datas
 ## Comparison models by ROC-curve
 ![image](assets/Comparison_models_by_ROC_AUC.png)
 
+As you can see the Random Forest model is more precise than others. 
+
 ## Feature importance
 This highlights the features that have the most significant impact on the model's performance.
 
