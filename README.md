@@ -68,8 +68,7 @@ These metrics were calculated using a hold-out validation method where the datas
 
 ## Comparison models by ROC-curve
 
-![Comparison Models by ROC AUC]((https://github.com/nasesmae/churn-behavior/blob/main/assets/Comparison%20models%20by%20ROC%20AUC.png)
-
+![image](assets/Comparison models by ROC AUC.png)
 
 ## Feature importance
 This highlights the features that have the most significant impact on the model's performance.
