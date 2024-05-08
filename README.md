@@ -67,7 +67,6 @@ These metrics were calculated using a hold-out validation method where the datas
 ``
 
 ## Comparison models by ROC-curve
-
 ![image](assets/Comparison_models_by_ROC_AUC.png)
 
 ## Feature importance
